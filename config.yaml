@@ -1,0 +1,226 @@
+baseURL: "https://ramakantbot.github.io"
+languageCode: en-us
+title: RamakantBot
+theme: PaperMod
+
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# mainsections: ["blogs", "papermod"]
+
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        # - name: Home
+        #   url: ""
+        #   weight: 1
+        - name: Blogs
+          url: blogs/
+          weight: 2
+        - name: Search
+          url: search/
+          weight: 3
+        # - name: Tags
+        #   url: tags/
+        #   weight: 4
+        - name: Archives
+          url: archives/
+          weight: 5
+    params:
+        HomeInfoParams:
+          Title: "Hello 👋 "
+          Content: > 
+            **I'm Ramakant**. a tech enthusiast who loves to build things. Let's connect and create something awesome together!
+
+  hi:
+    languageName: "हिंदी"
+    weight: 2
+    title: RamakantBot
+    taxonomies:
+      category: HIcategories
+      tag: HItags
+      series: HIseries
+    menu:
+      main:
+        # - name: मुखपृष्ठ
+        #   url: ""
+        #   weight: 1
+        # - name: ब्लॉग
+        #   url: hi/hindi_blog/
+        #   weight: 2
+        - name: सर्च
+          url: hi/search/
+          weight: 3
+        # - name: टैग
+        #   url: hi/tags/
+        #   weight: 4 
+        - name: पुरालेख
+          url: hi/archives/
+          weight: 5
+    params:
+      HomeInfoParams:
+        Title: "नमस्ते 🙏"  
+        Content: > 
+            **मेरा नाम रमाकांत है।**
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+
+# menu:
+#   main:
+#     - identifier: home
+#       name: Home
+#       url: /home/
+#       weight: 10
+#     - identifier: projects
+#       name: Projects
+#       url: /projects/
+#       weight: 20
+#     - identifier: blogs
+#       name: Blogs
+#       url: /blogs/
+#       weight: 30
+#     - identifier: search
+#       name: Search
+#       url: /search/
+#       weight: 45
+#     - identifier: tags
+#       name: Tags
+#       url: /tags/
+#       weight: 40
+#     - identifier: archives
+#       name: Archives
+#       url: /archives/
+#       weight: 50
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  # author: Theme PaperMod
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: true
+  # images: ["images/papermod-cover.png"]
+
+  HomeInfoParams:
+    Title: "Hello 👋 "
+    Content: > 
+      **I'm Ramakant**. a tech enthusiast who loves to build things. Let's connect and create something awesome together!
+  
+  SocialIcons:
+    - name: Github
+      url: https://github.com/RamakantBot
+    - name: X
+      url: https://x.com/ramakantbot
+    - name: Discord
+      url: https://dsc.gg/botopia 
+    - name: Email
+      url: mailto:ramakantbot@duck.com
+
+  editPost:
+    URL: "https://github.com/RamakantBot/ramakantbot.github.io/tree/exampleSite/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: false # to append file path to Edit link
+    
+    # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Ramakant Patil
+    subtitle: "Bio"
+    imageUrl: "images/profile.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: my image
+    buttons:
+      - name: Blogs
+        url: blogs
+      - name: Tags
+        url: tags
+  
+  # label:
+  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: false
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  cover:
+      hidden: true # hide everywhere but not in structured data
+      hiddenInList: true # hide on list pages and home
+      hiddenInSingle: false # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
+
