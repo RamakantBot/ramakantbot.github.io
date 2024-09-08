@@ -50,7 +50,7 @@ languages:
             **I'm Ramakant**. a tech enthusiast who loves to build things. Let's connect and create something awesome together!
 
   hi:
-    languageName: "हिंदी"
+    languageName: "🇮🇳" # हिंदी
     weight: 2
     title: RamakantBot
     taxonomies:
@@ -59,9 +59,9 @@ languages:
       series: HIseries
     menu:
       main:
-        # - name: मुखपृष्ठ
-        #   url: ""
-        #   weight: 1
+        - name: मुखपृष्ठ
+          url: ""
+          weight: 1
         # - name: ब्लॉग
         #   url: hi/hindi_blog/
         #   weight: 2
