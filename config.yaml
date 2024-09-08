@@ -20,7 +20,7 @@ pygmentsUseClasses: true
 
 languages:
   en:
-    languageName: "English"
+    languageName: "En" # English 
     weight: 1
     taxonomies:
       category: categories
