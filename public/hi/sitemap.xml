@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ramakantbot.github.io/hi/hindi-blog/</loc>
+    <loc>http://localhost:36035/hi/hindi-blog/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/</loc>
+    <loc>http://localhost:36035/hi/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ramakantbot.github.io/"
+                href="http://localhost:36035/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://ramakantbot.github.io/hi/"
+                href="http://localhost:36035/hi/"
                 />
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/hindi-blog/phala_hindi_blog/</loc>
+    <loc>http://localhost:36035/hi/hindi-blog/phala_hindi_blog/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/hicategories/</loc>
+    <loc>http://localhost:36035/hi/hicategories/</loc>
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/hiseries/</loc>
+    <loc>http://localhost:36035/hi/hiseries/</loc>
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/hitags/</loc>
+    <loc>http://localhost:36035/hi/hitags/</loc>
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/tags/</loc>
+    <loc>http://localhost:36035/hi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ramakantbot.github.io/tags/"
+                href="http://localhost:36035/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://ramakantbot.github.io/hi/tags/"
+                href="http://localhost:36035/hi/tags/"
                 />
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/archives/</loc>
+    <loc>http://localhost:36035/hi/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ramakantbot.github.io/archives/"
+                href="http://localhost:36035/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://ramakantbot.github.io/hi/archives/"
+                href="http://localhost:36035/hi/archives/"
                 />
   </url><url>
-    <loc>https://ramakantbot.github.io/hi/search/</loc>
+    <loc>http://localhost:36035/hi/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ramakantbot.github.io/search/"
+                href="http://localhost:36035/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://ramakantbot.github.io/hi/search/"
+                href="http://localhost:36035/hi/search/"
                 />
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hindi-Blogs on RamakantBot</title>
-    <link>https://ramakantbot.github.io/hi/hindi-blog/</link>
+    <link>http://localhost:36035/hi/hindi-blog/</link>
     <description>Recent content in Hindi-Blogs on RamakantBot</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>hi</language>
     <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ramakantbot.github.io/hi/hindi-blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36035/hi/hindi-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>हिंदी ब्लॉग</title>
-      <link>https://ramakantbot.github.io/hi/hindi-blog/phala_hindi_blog/</link>
+      <link>http://localhost:36035/hi/hindi-blog/phala_hindi_blog/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://ramakantbot.github.io/hi/hindi-blog/phala_hindi_blog/</guid>
+      <guid>http://localhost:36035/hi/hindi-blog/phala_hindi_blog/</guid>
       <description></description>
     </item>
   </channel>
