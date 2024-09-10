@@ -78,22 +78,22 @@ languages:
       tag: HItags
       series: HIseries
     menu:
-      main:
+      main: []
         # - name: मुखपृष्ठ
         #   url: ""
         #   weight: 1
         # - name: ब्लॉग
-        #   url: hi/hindi_blog/
+        #   url: hi/hindi-blog/
         #   weight: 2
-        - name: सर्च
-          url: hi/search/
-          weight: 3
-        # - name: टैग
-        #   url: hi/tags/
-        #   weight: 4 
-        - name: पुरालेख
-          url: hi/archives/
-          weight: 5
+        # - name: सर्च
+        #   url: hi/search/
+        #   weight: 3
+        # # - name: टैग
+        # #   url: hi/tags/
+        # #   weight: 4 
+        # - name: पुरालेख
+        #   url: hi/archives/
+        #   weight: 5
     params:
       HomeInfoParams:
         Title: "नमस्ते 🙏"  
@@ -156,7 +156,7 @@ params:
   author: Ramakant
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: auto
+  defaultTheme: dark
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
@@ -259,8 +259,8 @@ markup:
     # style: monokai
 
 services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
+  # instagram:
+  #   disableInlineCSS: true
+  # twitter:
+  #   disableInlineCSS: true
 
