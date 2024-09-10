@@ -28,9 +28,9 @@ languages:
       series: series
     menu:
       main:
-        # - name: Home
-        #   url: ""
-        #   weight: 1
+        - name: Home
+          url: ""
+          weight: 1
         - name: Blogs
           url: blogs/
           weight: 2
@@ -44,14 +44,29 @@ languages:
           url: archives/
           weight: 5
     params:
-        HomeInfoParams:
-          Title: "Hello 👋"
-          Content: > 
-            **I'm Ramakant**, a dedicated programmer with a passion for technology.                       
-            This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects. 
-            
-            
-            Feel free to explore and reach out.
+      HomeInfoParams:
+        Title: "Hello 👋"
+        Content: > 
+          **I'm Ramakant**, a dedicated programmer with a passion for technology.                       
+          This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects.                         
+          
+          
+          Feel free to explore and reach out.
+        
+        # profile-mode
+      profileMode:
+        enabled: false # needs to be explicitly set
+        title: "I'm Ramakant"
+        subtitle: "a dedicated programmer with a passion for technology. This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects. Feel free to explore and reach out."
+        imageUrl: "images/profile.jpg"
+        imageWidth: 180
+        imageHeight: 180
+        imageTitle: my image
+        buttons:
+          - name: Blogs
+            url: blogs
+          - name: Tags
+            url: tags
 
 
   hi:
@@ -82,8 +97,24 @@ languages:
     params:
       HomeInfoParams:
         Title: "नमस्ते 🙏"  
-        Content: > 
-         यह वेबसाइट अभी पूरी तरह से नहीं बनी है
+        Content: >
+          यह वेबसाइट अभी पूरी तरीकेसे नहीं बनी है। 
+
+
+       # Hindi-profile-mode
+      profileMode:
+        enabled: true # needs to be explicitly set
+        title: "⚠️"
+        subtitle: >
+          इस साइट का निर्माण चल रहा है। 
+          
+          
+          This site is under construction.
+        imageUrl: ""
+        buttons:
+          - name: Back to Home
+            url: "/"
+      SocialIcons: []
 
 outputs:
   home:
@@ -91,32 +122,32 @@ outputs:
     - RSS
     - JSON 
 
-# menu:
-#   main:
-#     - identifier: home
-#       name: Home
-#       url: /home/
-#       weight: 10
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /home/
+      weight: 10
 #     - identifier: projects
 #       name: Projects
 #       url: /projects/
 #       weight: 20
-#     - identifier: blogs
-#       name: Blogs
-#       url: /blogs/
-#       weight: 30
-#     - identifier: search
-#       name: Search
-#       url: /search/
-#       weight: 45
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 45
 #     - identifier: tags
 #       name: Tags
 #       url: /tags/
 #       weight: 40
-#     - identifier: archives
-#       name: Archives
-#       url: /archives/
-#       weight: 50
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 50
 
 
 params:
@@ -169,8 +200,8 @@ params:
     # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Ramakant Patil
-    subtitle: "Bio"
+    title: "I'm Ramakant"
+    subtitle: "a dedicated programmer with a passion for technology. This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects"
     imageUrl: "images/profile.jpg"
     imageWidth: 180
     imageHeight: 180
@@ -232,5 +263,4 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-
 
