@@ -47,9 +47,7 @@ languages:
         HomeInfoParams:
           Title: "Hello 👋"
           Content: > 
-            **I'm Ramakant**, a dedicated programmer with a passion for technology. 
-            
-            
+            **I'm Ramakant**, a dedicated programmer with a passion for technology.                       
             This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects. 
             
             

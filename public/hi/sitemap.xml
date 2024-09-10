@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:36035/hi/hindi-blog/</loc>
+    <loc>http://localhost:1313/hi/hindi-blog/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36035/hi/</loc>
+    <loc>http://localhost:1313/hi/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:36035/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:36035/hi/"
+                href="http://localhost:1313/hi/"
                 />
   </url><url>
-    <loc>http://localhost:36035/hi/hindi-blog/phala_hindi_blog/</loc>
+    <loc>http://localhost:1313/hi/hindi-blog/phala_hindi_blog/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36035/hi/hicategories/</loc>
+    <loc>http://localhost:1313/hi/hicategories/</loc>
   </url><url>
-    <loc>http://localhost:36035/hi/hiseries/</loc>
+    <loc>http://localhost:1313/hi/hiseries/</loc>
   </url><url>
-    <loc>http://localhost:36035/hi/hitags/</loc>
+    <loc>http://localhost:1313/hi/hitags/</loc>
   </url><url>
-    <loc>http://localhost:36035/hi/tags/</loc>
+    <loc>http://localhost:1313/hi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:36035/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:36035/hi/tags/"
+                href="http://localhost:1313/hi/tags/"
                 />
   </url><url>
-    <loc>http://localhost:36035/hi/archives/</loc>
+    <loc>http://localhost:1313/hi/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:36035/archives/"
+                href="http://localhost:1313/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:36035/hi/archives/"
+                href="http://localhost:1313/hi/archives/"
                 />
   </url><url>
-    <loc>http://localhost:36035/hi/search/</loc>
+    <loc>http://localhost:1313/hi/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:36035/search/"
+                href="http://localhost:1313/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:36035/hi/search/"
+                href="http://localhost:1313/hi/search/"
                 />
   </url>
 </urlset>
