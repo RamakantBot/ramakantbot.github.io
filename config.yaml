@@ -1,7 +1,9 @@
 baseURL: "https://ramakantbot.github.io"
 languageCode: en-us
 title: RamakantBot
-theme: PaperMod
+theme: 
+  - PaperMod
+  - PaperMod-bookshelf
 
 
 minify:
@@ -34,15 +36,18 @@ languages:
         - name: Blogs
           url: blogs/
           weight: 2
+        - name: Bookshelf
+          url: bookshelf/
+          weight: 3
         - name: Search
           url: search/
-          weight: 3
+          weight: 4
         # - name: Tags
         #   url: tags/
-        #   weight: 4
+        #   weight: 5
         - name: Archives
           url: archives/
-          weight: 5
+          weight: 6
     params:
       HomeInfoParams:
         Title: "Hello 👋"
@@ -136,18 +141,22 @@ menu:
       name: Blogs
       url: /blogs/
       weight: 30
+    - identifier: bookshelf
+      name: Bookshelf
+      url: /bookshelf/
+      weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 45
+      weight: 50
 #     - identifier: tags
 #       name: Tags
 #       url: /tags/
-#       weight: 40
+#       weight: 55
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 50
+      weight: 60
 
 
 params:

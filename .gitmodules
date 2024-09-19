@@ -1,0 +1,3 @@
+[submodule "themes/PaperMod-bookshelf"]
+	path = themes/PaperMod-bookshelf
+	url = https://github.com/tgagor/hugo-PaperMod-bookshelf.git
