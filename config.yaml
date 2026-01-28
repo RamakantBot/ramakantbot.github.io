@@ -36,9 +36,9 @@ languages:
         - name: Blogs
           url: blogs/
           weight: 2
-        - name: Bookshelf
-          url: bookshelf/
-          weight: 3
+        # - name: Bookshelf
+          # url: bookshelf/
+          # weight: 3
         - name: Search
           url: search/
           weight: 4
