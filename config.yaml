@@ -60,7 +60,7 @@ languages:
         
         # profile-mode
       profileMode:
-        enabled: false # needs to be explicitly set
+        enabled: true # needs to be explicitly set
         title: "I'm Ramakant"
         subtitle: "a dedicated programmer with a passion for technology. This platform is where I share my thoughts, insights, and experiences related to programming and open-source projects. Feel free to explore and reach out."
         imageUrl: "images/profile.jpg"
