@@ -36,9 +36,9 @@ languages:
         - name: Blogs
           url: blogs/
           weight: 2
-        # - name: Bookshelf
-          # url: bookshelf/
-          # weight: 3
+        - name: Bookshelf
+          url: bookshelf/
+          weight: 3
         - name: Search
           url: search/
           weight: 4
@@ -233,7 +233,7 @@ params:
 
   assets:
     disableHLJS: false
-  #     favicon: "<link / abs url>"
+  # f   avicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
   #     apple_touch_icon: "<link / abs url>"
@@ -242,7 +242,7 @@ params:
   cover:
       hidden: true # hide everywhere but not in structured data
       hiddenInList: true # hide on list pages and home
-      hiddenInSingle: false # hide on single page
+      hiddenInSingle: true # hide on single page
 
   # fuseOpts:
   #     isCaseSensitive: false
